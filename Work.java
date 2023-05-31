@@ -8,7 +8,7 @@ public class Work {
       int result = Integer.valueOf(a+b);
       System.out.println(result);
       System.out.println( a == b);
-      System.out.println(a+b==50);
+      System.out.println(a+b!=50);
       int c = 40;
       short k = 10;
       int result1 = Integer.valueOf(c*k-b/a);
