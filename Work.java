@@ -14,6 +14,11 @@ public class Work {
       int result1 = Integer.valueOf(c*k-b/a);
       System.out.println(result1);
       System.out.println(k*c==400);
+      Integer L = 391;
+      int result2 = Integer.valueOf(L+a+4);
+      System.out.println(result2);
+      System.out.println(result2%k*c);
+      System.out.println(result1==result2);
     }
 
 }
